@@ -1,0 +1,72 @@
+ 
+.header {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    flex-direction:  row;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+.header p.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #55f639;
+}
+
+.header p.active {
+    background-color:#f6b139;
+    color: #060606;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;   
+}
+.header-right p{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.inputfield {
+    width: 40% !important;
+    padding: 1px;
+    margin-top: 5px;
+    margin-right: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 500px) {
+    .header p {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right{
+ margin: auto 0;
+    } 
+    .header-right p{
+       font-size: 10px;
+        padding: 5px;
+       margin: 5px;
+       text-decoration: none;
+    }
+}

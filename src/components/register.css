@@ -1,0 +1,77 @@
+.signUpScreen {
+    color: aqua;
+    max-width: 300px;
+    padding: 30px;
+    /* margin-top: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent black;
+    border: 1px solid rgb(252, 249, 249);
+    border-radius: 10px;
+    box-shadow: 0 2px 12px 4px rgba(220, 214, 214, 0.406);
+    background-color: black ;
+}
+
+.signUpScreen>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpScreen>form>input {
+    padding: 5px 15px;
+    outline-width: 0;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 14px;
+}
+
+.signInButton {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #09bbe3d7;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signInWithGoogle {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: aqua;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(252, 249, 249);
+    transition: 0.5s ease-in-out;
+}
+
+.signInWithGoogle:focus,
+.signInWithGoogle:hover {
+    color: #fff;
+    background-color: #09bbe3d7;
+    box-shadow: 0 2px 12px 4px rgba(220, 214, 214, 0.406);
+}
+
+.signUpScreen-gray {
+    color: gray;
+}
+
+.signUpScreen_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 760px) {
+    .signUpScreen {
+        max-width: 250px;
+        padding: 20px;
+
+    }
+}
